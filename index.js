@@ -71,7 +71,7 @@ const questions = [{
     type: 'list',
     name: 'license',
     message: 'License: choose a license for your project.',
-    choices: []
+    choices: ['MIT License', 'GPLv3 License', 'Mozilla Public License 2.0', 'Other']
 }, {
     type: 'input',
     name: 'contributing',
@@ -80,14 +80,13 @@ const questions = [{
 }, {
     type: 'input',
     name: 'tests',
-    message: 'Tests: if necessary, provide tests for your project..',
+    message: 'Tests: if necessary, provide tests for your project.',
     //   no validation here, if no tests are desired they can enter nothing and skip this question.
 }, ];
 
 const init = () => {
     inquirer.prompt(questions)
         .then((response) => {
-            const readme = generateREADME(response);
             fs.writeFileSync('README.md', generateMarkdown(response));
         })
         .then(() => {
