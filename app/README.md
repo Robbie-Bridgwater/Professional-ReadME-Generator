@@ -1,4 +1,4 @@
-# Example Title
+# ANEXAMPLE
 
   ## Link
   Launch the app ---> [here](example.git.io)
@@ -13,15 +13,15 @@
   7. [Questions](#questions)
 
   ## Project Description
-  * This is an example File
+  * A simple example to demonstrate
   ## Installation Instructions
   * undefined
   ## Usage Information
-  * Step 1. Example. Step 2. Example. Step 3. Example of course.
+  * 1. example, 2. example, 3. example
   ## Contributor Guidelines
-  * You would need to hastily example and then example again
+  * If you'd like to example then please example example
   ## Test Instructions
-  * Carefully measure out half a cubic ounce of example and then stay at the miniscus of the example to watch for sporadic exampling.
+  * measure half a cup of example and take yourself down to the miniscus of the example so that you may view the sporadic exampling
   ## License
   * licensed under the  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
