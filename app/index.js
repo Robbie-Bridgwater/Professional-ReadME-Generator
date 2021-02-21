@@ -56,7 +56,12 @@ const questions = [{
     type: 'input',
     name: 'installation',
     message: 'Installation: if necessary, explain how the user would install the required packages',
-    //   no validation here, if no installation is needed they can enter nothing and skip this question.
+    validate: (answer) => {
+        if (answer.length < 1) {
+            return console.log("You must enter installation instructions or specify that there are no installations required.")
+        }
+        return true;
+    },
 }, {
     type: 'input',
     name: 'usage',
@@ -76,12 +81,22 @@ const questions = [{
     type: 'input',
     name: 'contributing',
     message: 'Contributing: if necessary, explain how users can contribute to your project.',
-    //   no validation here, if no explanation is desired they can enter nothing and skip this question.
+    validate: (answer) => {
+        if (answer.length < 1) {
+            return console.log("You must enter how to contribute to your project.")
+        }
+        return true;
+    },
 }, {
     type: 'input',
     name: 'tests',
     message: 'Tests: if necessary, provide tests for your project.',
-    //   no validation here, if no tests are desired they can enter nothing and skip this question.
+    validate: (answer) => {
+        if (answer.length < 1) {
+            return console.log("You must enter any tests for your project or specify that there are no tests.")
+        }
+        return true;
+    },
 }, ];
 
 const init = () => {
