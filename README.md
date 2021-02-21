@@ -2,7 +2,7 @@
 - A simple command line application that allows you to generate a README.md file.
 
 ## Video Walk-through
-Watch it in action ---> [here](https://robbie-bridgwater.github.io/Homework_week7/)
+Watch it in action ---> [here](https://drive.google.com/file/d/1b4cG3TcNyJN-yYBaiMFcU7u-GVawT1B5/view)
 
 ## User Story
 
