@@ -1,7 +1,7 @@
-# Professional-README-Generator
+# g
 
   ## Link
-  Launch the app ---> [here](Don't have this yet)
+  Launch the app ---> [here](gw)
 
   #### Table of Contents
   1. [Project Description](#project-description)
@@ -13,17 +13,19 @@
   7. [Questions](#questions)
 
   ## Project Description
-  * A simple command line application to generate a README
+  * wr
   ## Installation Instructions
   * undefined
   ## Usage Information
-  * Navigate to the directory location in the command line and then enter "node index.js" and follow the directions
+  * gw
   ## Contributor Guidelines
-  * You can contact me at the supplied email address
+  * 
   ## Test Instructions
   * 
   ## License
-  * licensed under the MIT License
+  * licensed under the  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+[Learn more about this licence.](https://lbesson.mit-license.org/)
   ## Questions
-  * For assistance or questions, contact me at Robbie_Bridgwater@Hotmail.co.uk
+  * For assistance or questions, contact me at wrg
   * Follow me on Github at [undefined](http://github.com/undefined)

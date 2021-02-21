@@ -60,7 +60,7 @@ const questions = [{
 }, {
     type: 'input',
     name: 'usage',
-    message: 'Usage: enter your project instructions and some examples of it in use.',
+    message: 'Usage: enter project instructions (a simple how to use).',
     validate: (answer) => {
         if (answer.length < 1) {
             return console.log("You must enter usage instructions and/or examples.")
