@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./app/utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [{
     type: 'input',
@@ -56,12 +56,7 @@ const questions = [{
     type: 'input',
     name: 'installation',
     message: 'Installation: if necessary, explain how the user would install the required packages',
-    validate: (answer) => {
-        if (answer.length < 1) {
-            return console.log("You must enter the installation requirements or specify that there are no requirements.")
-        }
-        return true;
-    },
+    //   no validation here, if no installation is needed they can enter nothing and skip this question.
 }, {
     type: 'input',
     name: 'usage',
@@ -86,12 +81,7 @@ const questions = [{
     type: 'input',
     name: 'tests',
     message: 'Tests: if necessary, provide tests for your project.',
-    validate: (answer) => {
-        if (answer.length < 1) {
-            return console.log("You must enter the what tests there are or specify that there are no tests.")
-        }
-        return true;
-    },
+    //   no validation here, if no tests are desired they can enter nothing and skip this question.
 }, ];
 
 const init = () => {
