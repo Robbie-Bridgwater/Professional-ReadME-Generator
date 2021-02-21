@@ -27,6 +27,13 @@ Watch it in action ---> [here](https://drive.google.com/file/d/1b4cG3TcNyJN-yYBa
 - WHEN I click on the links in the Table of Contents
 - THEN I am taken to the corresponding section of the README
 
+## Installation
+To generate a README, you will need to run npm i inquirer to install the 'inquirer' package dependencies
+
+Once installed, you can initialise the application by running node index.js in the command line
+
+The inquirer package will then display prompts in the console that will allow you to generate a README
+
 ## Languages Used
 - JavaScript 
 
