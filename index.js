@@ -81,7 +81,12 @@ const questions = [{
     type: 'input',
     name: 'contributing',
     message: 'Contributing: if necessary, explain how users can contribute to your project.',
-    //   no validation here, if no explanation is desired they can enter nothing and skip this question.
+    validate: (answer) => {
+        if (answer.length < 1) {
+            return console.log("You must enter how users can contribute to your project.")
+        }
+        return true;
+    },
 }, {
     type: 'input',
     name: 'tests',
