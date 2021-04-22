@@ -13,7 +13,7 @@ Section | Description
 [Questions](#Questions?) | Where you can reach me
 
 ## Walk-Through
-Watch it in action ---> [here](https://drive.google.com/file/d/1b4cG3TcNyJN-yYBaiMFcU7u-GVawT1B5/view)
+OPEN VIDEO WALK-THROUGH ---> [HERE](https://drive.google.com/file/d/1b4cG3TcNyJN-yYBaiMFcU7u-GVawT1B5/view)
 
 ## User Story
 
